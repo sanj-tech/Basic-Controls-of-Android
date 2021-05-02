@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/itemoption"
+        android:title="search"
+        android:icon="@drawable/ic_search"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/itemoption1"
+        android:title="smile"
+        android:icon="@drawable/ic_smile"
+        app:showAsAction="always"
+        />
+
+
+    <item
+        android:id="@+id/item1"
+        android:title="Item1"
+        />
+    <item
+        android:id="@+id/item2"
+        android:title="Item2"
+        />
+    <item
+        android:id="@+id/item3"
+        android:title="Item3"
+        />
+    <item
+        android:id="@+id/item4"
+        android:title="Item4"
+        />
+    <item
+        android:id="@+id/item5"
+        android:title="More">
+
+        <menu>
+            <item android:id="@+id/subMenu"
+                android:title="Submenu"/>
+            <item android:id="@+id/subMenu1"
+                android:title="Submenu 1"/>
+
+
+        </menu>
+    </item>
+
+</menu>
